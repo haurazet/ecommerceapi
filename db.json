@@ -1,0 +1,447 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "a",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "b",
+      "password": "user",
+      "role": "user",
+      "address": ""
+    },
+    {
+      "username": "haura",
+      "password": "haura12",
+      "role": "user",
+      "id": 3,
+      "address": [
+        {
+          "name": "Haura Zahro",
+          "phone": "+6287886348123",
+          "street": "Komp.Depnakertrans Jl.Jenggala 2 No.16, Jakasampurna Bekasi Barat",
+          "city": "Bekasi",
+          "zip": "17145",
+          "state": "Jawa Barat",
+          "geo": {
+            "lat": "-37.3159",
+            "lng": "81.1496"
+          }
+        }
+      ]
+    },
+    {
+      "username": "adam",
+      "password": "levine12",
+      "role": "user",
+      "id": 4,
+      "address": ""
+    }
+  ],
+  "products": [
+    {
+      "name": "Snail Bee Gel",
+      "brand": "Benton",
+      "image": "https://cdn.shopify.com/s/files/1/0876/7414/products/Snail_Bee_High_Content_Essence_01260464-23f1-4502-8bf5-48330dc45ff2_1024x1024.png?v=1522909195",
+      "stock": 9,
+      "categoryId": 1,
+      "price": 10000,
+      "description": "The Benton Snail Bee High Content Essence is formulated with Snail secretion filtrate, sh-Oligopeptide-1, and bee venom that hydrates and smooths",
+      "id": 5
+    },
+    {
+      "name": "Aloe BHA Skin Toner",
+      "brand": "Benton",
+      "image": "https://cdn.shopify.com/s/files/1/0876/7414/products/Aloe_BHA_Skin_Toner_87b40dfc-5773-4f6e-9305-dd2bd040622d_1024x1024.png?v=1522909565",
+      "stock": 50,
+      "categoryId": 1,
+      "price": 60000,
+      "description": "Exfoliate, soothe, and replenish. Formulated with 0.5% Salicylic Acid and 80% aloe vera extract, the Benton Aloe BHA Skin Toner exfoliates dead skin",
+      "id": 6
+    },
+    {
+      "name": "Aloe Propolis Soothing Gel",
+      "brand": "Benton",
+      "image": "https://cdn.shopify.com/s/files/1/0876/7414/products/Aloe_Propolis_Soothing_Gel_e2c6edb3-5496-4d25-a57b-3e7fce6a9317_1024x1024.png?v=1522908603",
+      "stock": 5,
+      "categoryId": "1",
+      "price": 50000,
+      "description": "Hydrates and soothes. The Benton Aloe Propolis Soothing Gel is formulated with Aloe Vera extract and Propolis extract to hydrate and soothe the skin",
+      "id": 7
+    },
+    {
+      "name": "Professional Angled Contour",
+      "brand": "Masami Shouko",
+      "image": "https://s.blanja.com/picspace/492/254444/960.1200_aa8fc9f894474be0822d26e3cc462115.jpg?w=348",
+      "stock": 5,
+      "categoryId": 3,
+      "price": 220000,
+      "description": "Either you're looking for a high quality brush to create an even and flawless makeup application, or to complete your luxurious makeup tools",
+      "id": 8
+    },
+    {
+      "name": "314 Brow/Lash Brush 14cm",
+      "brand": "Masami Shouko",
+      "image": "https://id-test-11.slatic.net/p/5/masami-shouko-314-browlash-brush-14cm-9402-2562011-743a695cd171e8a2c247bc1e6ac5f7e6-catalog.jpg_340x340q80.jpg_.webp",
+      "stock": 7,
+      "categoryId": 3,
+      "price": 60000,
+      "description": "Bulu natural Kualitas bulu halus dan lembut Tidak mudah rontok Mudah diaplikasikan Mudah dibawa",
+      "id": 9
+    },
+    {
+      "name": "Velvet Lip Tint",
+      "brand": "3CE",
+      "image": "https://s3-ap-southeast-1.amazonaws.com/soc-newplatform/Vu3QZQIcuzqRJLldsyPpAYFa4i1LJD_1530527824.jpg",
+      "stock": 6,
+      "categoryId": 2,
+      "price": 120000,
+      "description": "A sherbet-like texture that melts into lips and leaves a natural tinge with a matte finish., This soft and velvety tint imparts subtle yet rich color ",
+      "id": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Skincare"
+    },
+    {
+      "id": "2",
+      "name": "Make Up"
+    },
+    {
+      "id": "3",
+      "name": "Accessories"
+    }
+  ],
+  "transactions": [
+    {
+      "status": "onprocess",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "status": "onprocess",
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "status": "onprocess",
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "status": "onprocess",
+      "userId": 3,
+      "id": 4
+    },
+    {
+      "status": "onwaitingpayment",
+      "userId": 3,
+      "id": 5
+    },
+    {
+      "status": "onwaitingpayment",
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "status": "onprocess",
+      "userId": 3,
+      "id": 7
+    },
+    {
+      "status": "onwaitingpayment",
+      "userId": 2,
+      "id": 8
+    },
+    {
+      "status": "onprocess",
+      "userId": 3,
+      "id": 9
+    },
+    {
+      "status": "onwaitingpayment",
+      "userId": 3,
+      "id": 10
+    },
+    {
+      "status": "onwaitingpayment",
+      "userId": 3,
+      "id": 11
+    },
+    {
+      "status": "onwaitingpayment",
+      "userId": 3,
+      "id": 12
+    },
+    {
+      "status": "onwaitingpayment",
+      "userId": 3,
+      "id": 13
+    },
+    {
+      "status": "onprocess",
+      "userId": 3,
+      "id": 14
+    },
+    {
+      "status": "onwaitingpayment",
+      "userId": 3,
+      "id": 15
+    },
+    {
+      "status": "onwaitingpayment",
+      "userId": 3,
+      "id": 16
+    },
+    {
+      "status": "onwaitingpayment",
+      "userId": 3,
+      "id": 17
+    },
+    {
+      "status": "onprocess",
+      "userId": 3,
+      "id": 18
+    },
+    {
+      "status": "onprocess",
+      "userId": 3,
+      "id": 19
+    },
+    {
+      "status": "onprocess",
+      "userId": 2,
+      "id": 20,
+      "method": "CC"
+    },
+    {
+      "status": "onprocess",
+      "userId": 2,
+      "id": 21,
+      "method": "CC"
+    },
+    {
+      "status": "onprocess",
+      "userId": 2,
+      "id": 22,
+      "method": "CC"
+    },
+    {
+      "status": "onpaymentverification",
+      "userId": 2,
+      "id": 23,
+      "method": "CC"
+    },
+    {
+      "status": "onpaymentverification",
+      "userId": 2,
+      "id": 24,
+      "method": "CC"
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 1,
+      "productId": 7,
+      "qty": 1,
+      "id": 1
+    },
+    {
+      "transactionId": 1,
+      "productId": 6,
+      "qty": 5,
+      "id": 2
+    },
+    {
+      "transactionId": 2,
+      "productId": 5,
+      "qty": 1,
+      "id": 9
+    },
+    {
+      "transactionId": 2,
+      "productId": 8,
+      "qty": 1,
+      "id": 10
+    },
+    {
+      "transactionId": 1,
+      "productId": 8,
+      "qty": 2,
+      "id": 11
+    },
+    {
+      "transactionId": 1,
+      "productId": 5,
+      "qty": 1,
+      "id": 12
+    },
+    {
+      "transactionId": 2,
+      "productId": 7,
+      "qty": 1,
+      "id": 13
+    },
+    {
+      "transactionId": 3,
+      "productId": 9,
+      "qty": 5,
+      "id": 14
+    },
+    {
+      "transactionId": 4,
+      "productId": 6,
+      "qty": 3,
+      "id": 15
+    },
+    {
+      "transactionId": 4,
+      "productId": 8,
+      "qty": 1,
+      "id": 16
+    },
+    {
+      "transactionId": 5,
+      "productId": 7,
+      "qty": 4,
+      "id": 17
+    },
+    {
+      "transactionId": 6,
+      "productId": 9,
+      "qty": 1,
+      "id": 18
+    },
+    {
+      "transactionId": 6,
+      "productId": 6,
+      "qty": 1,
+      "id": 19
+    },
+    {
+      "transactionId": 7,
+      "productId": 6,
+      "qty": 4,
+      "id": 20
+    },
+    {
+      "transactionId": 8,
+      "productId": 8,
+      "qty": 3,
+      "id": 21
+    },
+    {
+      "transactionId": 7,
+      "productId": 7,
+      "qty": 1,
+      "id": 22
+    },
+    {
+      "transactionId": 9,
+      "productId": 7,
+      "qty": 3,
+      "id": 23
+    },
+    {
+      "transactionId": 10,
+      "productId": 8,
+      "qty": 2,
+      "id": 24
+    },
+    {
+      "transactionId": 11,
+      "productId": 7,
+      "qty": 2,
+      "id": 25
+    },
+    {
+      "transactionId": 12,
+      "productId": 7,
+      "qty": 1,
+      "id": 26
+    },
+    {
+      "transactionId": 13,
+      "productId": 7,
+      "qty": 1,
+      "id": 27
+    },
+    {
+      "transactionId": 14,
+      "productId": 7,
+      "qty": 1,
+      "id": 28
+    },
+    {
+      "transactionId": 15,
+      "productId": 7,
+      "qty": 1,
+      "id": 29
+    },
+    {
+      "transactionId": 16,
+      "productId": 7,
+      "qty": 1,
+      "id": 30
+    },
+    {
+      "transactionId": 17,
+      "productId": 8,
+      "qty": 1,
+      "id": 31
+    },
+    {
+      "transactionId": 18,
+      "productId": 7,
+      "qty": 1,
+      "id": 32
+    },
+    {
+      "transactionId": 18,
+      "productId": 8,
+      "qty": 1,
+      "id": 33
+    },
+    {
+      "transactionId": 19,
+      "productId": 6,
+      "qty": 6,
+      "id": 34
+    },
+    {
+      "transactionId": 20,
+      "productId": 7,
+      "qty": 2,
+      "id": 35
+    },
+    {
+      "transactionId": 21,
+      "productId": 5,
+      "qty": 4,
+      "id": 36
+    },
+    {
+      "transactionId": 22,
+      "productId": 8,
+      "qty": 1,
+      "id": 37
+    },
+    {
+      "transactionId": 23,
+      "productId": 7,
+      "qty": 1,
+      "id": 38
+    },
+    {
+      "transactionId": 24,
+      "productId": 7,
+      "qty": 4,
+      "id": 39
+    }
+  ]
+}
